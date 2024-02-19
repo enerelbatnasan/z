@@ -2,26 +2,92 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.arrow1{
+    position: absolute;
+    top: 60vh;
+    right: 25vw;
+}
+.arrow2{
+    position: absolute;
+    top: 15vh;
+    right: 18vw;
+}
+.picture{
+    position: absolute;
+    top: 69vh;
+    right: 50.5vw;
+    width: 100px;
+    height: 100px;
+    rotate: 87deg;
+}
+.hall_arrow1{
+    position: absolute;
+    top: 50vh;
+    right: 53vw;
+}
+.hall_arrow2{
+    position: absolute;
+    top: 60vh;
+    right: 60vw;
+    rotate: 180deg;
+}
+.hall_arrow3{
+    position: absolute;
+    top: 85vh;
+    right: 46vw;
+    rotate: 90deg;
+}
+.second_arrow1{
+    position: absolute;
+    top: 44vh;
+    right: 61.1vw;
+}
+.second_arrow2{
+    position: absolute;
+    top: 43vh;
+    right: 73vw;
+    width: 200px;
+}
+.second_arrow3{
+    rotate: 90deg;
+    width: 150px;
+}
+.candle{
+    position: absolute;
+    top: 68vh;
+    right: 79vw
+}
+.safe{
+    position: absolute;
+    top: 60vh;
+    right: 35vw;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.some-input::placeholder {
+    color: black;
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.input{
+    position: absolute;
+    top: 30vh;
+    right: 26vw;
+}
+.picture1{
+    rotate: 85deg;
+    position: absolute; 
+    top: 80vh;
+    right: 62vw;
+}
+.key{
+    position: absolute;
+    top: 36vh;
+    right: 25vw;
+}
+.attic_key{
+    position: absolute;
+    top: 25vh;
+    right: 45vw;
+}
+.playAgain:hover{
+    color: crimson;
+    border-color: crimson;
 }
